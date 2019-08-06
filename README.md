@@ -21,3 +21,21 @@ https://chrome.google.com/webstore/detail/jacap/dgnigmgogebihejgojnklnhcfjcehldl
 4. 如安装失败，请确认 (1) 操作是否正确 (2) crx 文件是否来自 [Release](https://github.com/fztfztfztfzt/jaccount-captcha/releases/) 页面或网上应用店
 
 ***
+
+### 项目结构介绍
+
+#### browser_extension Chrome浏览器插件
+
+利用JavaScript编写。
+
+#### captcha_collector 验证码数据收集脚本
+
+利用Python编写。
+
+#### model_training 神经网络训练脚本
+
+利用MATLAB编写。
+
+#### data 数据集
+
+收集的数据集存放于此，以图像文件形式存储。
